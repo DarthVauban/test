@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.progress {
+    display: flex;
+    background-color: #f7f7f7;
+    height: 50px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.progress__title {
+    margin-right: 10px;
+}
+.progress_done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d52d2f;
+    width: 0;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0;
+    transition: 1s ease;
+}
